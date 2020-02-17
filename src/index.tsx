@@ -1,6 +1,8 @@
 import { app, Component } from 'apprun';
 
-export default class extends Component {
+class App extends Component {
   view = () => 'Hello World!'
 }
+
+new App().start(document.body);
 
