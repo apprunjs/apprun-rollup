@@ -1,8 +1,8 @@
 import { app, Component } from 'apprun';
 
 class App extends Component {
-  view = () => 'Hello World!'
+  view = () => <div>Hello World!</div>
 }
 
-new App().start(document.body);
+app.render(document.body, <App />);
 

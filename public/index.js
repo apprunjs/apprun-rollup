@@ -1,2 +1,2 @@
-!function(n){class e extends n.Component{constructor(){super(...arguments),this.view=()=>"Hello World!"}}(new e).start(document.body)}(apprun);
+!function(l){class n extends l.Component{constructor(){super(...arguments),this.view=()=>l.app.createElement("div",null,"Hello World!")}}l.app.render(document.body,l.app.createElement(n,null))}(apprun);
 //# sourceMappingURL=index.js.map
