@@ -1,2 +1,2 @@
-!function(l){class n extends l.Component{constructor(){super(...arguments),this.view=()=>l.app.createElement("div",null,"Hello World!")}}l.app.render(document.body,l.app.createElement(n,null))}(apprun);
+!function(e){"use strict";class n extends e.Component{constructor(){super(...arguments),this.view=()=>e.app.createElement("div",null,"Hello World!")}}e.app.render(document.body,e.app.createElement(n,null))}(apprun);
 //# sourceMappingURL=index.js.map

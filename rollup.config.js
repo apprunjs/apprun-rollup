@@ -13,7 +13,9 @@ export default {
   },
   plugins: [
     typescript({ tsconfig: "src/tsconfig.json" }),
-    terser({warnings: true, module: true, mangle: { properties: { regex: /^__/ }}}),
+    terser({
+      warnings: true, output: { comments: false }
+    }),
     sourcemaps(),
   ]
 };
